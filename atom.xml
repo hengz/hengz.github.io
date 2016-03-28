@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-03-28T03:33:59.942Z</updated>
+  <updated>2016-03-28T04:30:29.164Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -20,15 +20,18 @@
     <link href="http://yoursite.com/2016/03/28/Hello-World/"/>
     <id>http://yoursite.com/2016/03/28/Hello-World/</id>
     <published>2016-03-28T03:07:26.000Z</published>
-    <updated>2016-03-28T03:33:59.942Z</updated>
+    <updated>2016-03-28T04:30:29.164Z</updated>
     
-    <content type="html">&lt;p&gt;实在受不了这些BLOG提供商臃肿，漫天广告飞的页面风格，选择Github托管，静态页面生成的方式自建BLOG。总算有一片自己的净土。&lt;br&gt;&lt;img src=&quot;/images/halo.jpeg&quot; alt=&quot;head image&quot;&gt;&lt;/p&gt;
+    <content type="html">&lt;p&gt;实在受不了这些BLOG提供商臃肿，漫天广告飞的页面风格，选择Github托管，静态页面生成的方式自建BLOG。总算有一片自己的净土。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/halo.jpeg&quot; alt=&quot;head image&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;%5BURL=https://gamercards.exophase.com/xbox/user/VickZ117/%5D%5BIMG%5Dhttps://card.exophase.com/1/996260.png%5B/IMG%5D%5B/URL%5D&quot;&gt;GAME CARD&lt;/a&gt;&lt;/p&gt;
 </content>
     
     <summary type="html">
     
-      &lt;p&gt;实在受不了这些BLOG提供商臃肿，漫天广告飞的页面风格，选择Github托管，静态页面生成的方式自建BLOG。总算有一片自己的净土。&lt;br&gt;&lt;img src=&quot;/images/halo.jpeg&quot; alt=&quot;head image&quot;&gt;&lt;/p&gt;
-
+      &lt;p&gt;实在受不了这些BLOG提供商臃肿，漫天广告飞的页面风格，选择Github托管，静态页面生成的方式自建BLOG。总算有一片自己的净土。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/halo.jpeg&quot; alt=&quot;head image&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;
     
     </summary>
     
