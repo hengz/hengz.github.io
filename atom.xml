@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-05-12T10:27:11.846Z</updated>
+  <updated>2018-05-12T10:32:01.193Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title></title>
+    <title>Hexo+GithubPages博客搭建</title>
     <link href="http://yoursite.com/2018/05/12/Hexo+GithubPages%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
     <id>http://yoursite.com/2018/05/12/Hexo+GithubPages博客搭建/</id>
-    <published>2018-05-11T16:00:00.000Z</published>
-    <updated>2018-05-12T10:27:11.846Z</updated>
+    <published>2018-05-12T10:30:30.000Z</published>
+    <updated>2018-05-12T10:32:01.193Z</updated>
     
     <content type="html"><![CDATA[<p>虽然没写文章，但倒腾博客倒是花了些时间，把使用Hexo+Github Pages搭建博客的过程整理分享一下。</p><h1 id="Hexo"><a href="#Hexo" class="headerlink" title="Hexo"></a>Hexo</h1><p>直接阅读Hexo官方文档，搭建好博客。</p><p><code>npm install hexo-cli -g</code></p><p>博客目录建成后在source/_posts目录下新建文章，或通过命令<code>hexo new</code>新建文章。</p><p>生成博客</p><p><code>hexo g</code></p><p>发布博客</p><p><code>hexo d</code></p><h1 id="Github-Pages"><a href="#Github-Pages" class="headerlink" title="Github Pages"></a>Github Pages</h1><p>Github Pages本身不多做介绍了，直接在Github上建立以xxx.github.io命名的项目，该地址也为Github Pages的访问地址。</p><p>为了方便博客发布，在本地配置好个人Github的SSH Key，为了在各个多端写博客，可以将自己的hexo项目放到Github上。</p><h1 id="域名"><a href="#域名" class="headerlink" title="域名"></a>域名</h1><p>我的域名是在阿里云购买的，也就是<a href="https://wanwang.aliyun.com/" target="_blank" rel="noopener">万网</a>提供的服务。最近.top域名非常便宜，4RMB就能买一年。域名购买好之后就可以在后台配置域名解析，和我们的Github Pages进行绑定。</p><h2 id="1-获取Github-Pages的IP地址"><a href="#1-获取Github-Pages的IP地址" class="headerlink" title="1. 获取Github Pages的IP地址"></a>1. 获取Github Pages的IP地址</h2><p>直接在命令行中Ping Github Pages地址，如我的：hengz.github.io，得到IP地址。如下图所示：</p><p><img src="https://i.loli.net/2018/05/12/5af6b688d7e8e.png" alt=""></p><p>我的Github Pages IP是：185.199.108.153</p><h2 id="2-配置域名解析"><a href="#2-配置域名解析" class="headerlink" title="2. 配置域名解析"></a>2. 配置域名解析</h2><p>在阿里云后台找到域名解析，点击域名解析。如下图所示：</p><p><img src="https://i.loli.net/2018/05/12/5af6b762c0555.png" alt=""></p><p>然后我添加了两条解析，「记录类型」为<strong>A</strong>，「主机记录」分别配置为<strong>www</strong>和<strong>@</strong>，「解析线路」为<strong>默认</strong>，「记录值」为要解析的IP，「TTL值」默认<strong>10分钟</strong>，然后保存即可。如下图所示：</p><p><img src="https://i.loli.net/2018/05/12/5af6bd2905ab5.png" alt=""></p><p>域名刚申请的时候这里可能默认有一些默认配置，直接删除即可。配置完成后如图所示：</p><p><img src="https://i.loli.net/2018/05/12/5af6b82dd0c31.png" alt=""></p><h2 id="3-配置Github-Pages的Custom-domain"><a href="#3-配置Github-Pages的Custom-domain" class="headerlink" title="3. 配置Github Pages的Custom domain"></a>3. 配置Github Pages的Custom domain</h2><p>打开Github Pages项目的配置页面，如图：</p><p><img src="https://i.loli.net/2018/05/12/5af6bebd1101e.png" alt=""></p><p>然后往下找到GitHub Pages的配置，并填写你的域名，保存即可。如下图所示：</p><p><img src="https://i.loli.net/2018/05/12/5af6bf309aa85.png" alt=""></p><p>完成后，就可以直接通过设置的域名，访问你的Github Pages了！如我自己的是：hengz117.top</p>]]></content>
     
@@ -34,6 +34,8 @@
       
     
     </summary>
+    
+      <category term="技术" scheme="http://yoursite.com/categories/%E6%8A%80%E6%9C%AF/"/>
     
     
   </entry>
